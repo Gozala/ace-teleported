@@ -10,6 +10,7 @@
   , "url": "git://github.com/Gozala/ace-teleported.git"
   }
 , "directories": { "lib": "./lib" }
+, "dependencies": { "ace": ">=0.1.1" }
 , "main": "./lib/ace-teleported.js"
 , "scripts": { "test": "node test/all.js" }
 , "engines":
