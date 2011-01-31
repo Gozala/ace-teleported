@@ -1,0 +1,19 @@
+{ "name": "ace-teleported"
+, "version": "0.0.1"
+, "description": "Demo package that uses ace."
+, "homepage": "http://github.com/Gozala/ace-teleported/"
+, "keywords": ["ace", "demo"]
+, "contributors":
+  [ "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)" ]
+, "repository":
+  { "type": "git"
+  , "url": "git://github.com/Gozala/ace-teleported.git"
+  }
+, "directories": { "lib": "./lib" }
+, "main": "./lib/ace-teleported.js"
+, "scripts": { "test": "node test/all.js" }
+, "engines":
+  { "node": ">=0.1.103"
+  , "teleport": ">=0.2.0"
+  }
+}
